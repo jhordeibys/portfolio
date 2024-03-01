@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import photo from "@/assets/img/avatar_g2.jpg";
+import jhord from "@/assets/img/jhordeibys.jpeg";
 
 const { showNav } = useNavBar();
 
@@ -26,7 +26,7 @@ const handleCloseNav = () => {
         <i class="fa-solid fa-xmark fa-xs"></i>
       </a>
 
-      <img :src="photo" class="w3-round img-width"><br><br>
+      <img :src="jhord" class="w3-round img-width"><br><br>
       <h4><b>PORTFOLIO</b></h4>
       <p class="w3-text-grey">Template by W3.CSS</p>
     </div>
@@ -35,8 +35,13 @@ const handleCloseNav = () => {
       <a href="#about" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
       <a href="#contact" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
     </div>
+    <!-- icons social media-->
+    
     <div class="w3-panel w3-large">
-      <i class="fa-brands fa-facebook w3-hover-opacity"></i>
+      <a href="https://www.google.com"><i class="fa-brands fa-facebook w3-hover-opacity"></i></a>
+
+
+      
       <i class="fa-brands fa-instagram w3-hover-opacity"></i>
       <i class="fa-brands fa-x-twitter w3-hover-opacity"></i>
       <i class="fa-brands fa-linkedin w3-hover-opacity"></i>
