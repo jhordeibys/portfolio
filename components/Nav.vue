@@ -28,25 +28,22 @@ const handleCloseNav = () => {
 
       <img :src="jhord" class="w3-round img-width"><br><br>
       <h4><b>PORTFOLIO</b></h4>
-      <p class="w3-text-grey">Template by W3.CSS</p>
+      <p class="w3-text-grey">Fullstack Developer</p>
     </div>
     <div class="w3-bar-block">
       <a href="#portfolio" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a> 
       <a href="#about" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
       <a href="#contact" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
     </div>
+
     <!-- icons social media-->
     
-    <div class="w3-panel w3-large">
-      <a href="https://www.google.com"><i class="fa-brands fa-facebook w3-hover-opacity"></i></a>
-
-
-      
-      <i class="fa-brands fa-instagram w3-hover-opacity"></i>
-      <i class="fa-brands fa-x-twitter w3-hover-opacity"></i>
-      <i class="fa-brands fa-linkedin w3-hover-opacity"></i>
-      <i class="fa-brands fa-github w3-hover-opacity"></i>
-      <i class="fa-brands fa-gitlab w3-hover-opacity"></i>
+    <div class="w3-panel w3-large icons">
+      <a href="https://www.instagram.com/jhordeibys" target="_blank"><i class="fa-brands fa-instagram w3-hover-opacity"></i></a>
+      <a href="https://twitter.com/jhordeibys37940" target="_blank"><i class="fa-brands fa-x-twitter w3-hover-opacity"></i></a>
+      <a href="https://www.linkedin.com/in/jhordeibys-da-silva-78a080214/" target="_blank"><i class="fa-brands fa-linkedin w3-hover-opacity"></i></a>
+      <a href="https://github.com/jhordeibys" target="_blank"><i class="fa-brands fa-github w3-hover-opacity"></i></a>
+      <a href="https://gitlab.com/jhordeibys" target="_blank"><i class="fa-brands fa-gitlab w3-hover-opacity"></i></a>
     </div>
   </nav>
 
@@ -58,6 +55,9 @@ const handleCloseNav = () => {
   ></div>
 </template>
 <style lang="scss">
+.icons a {
+  margin-left: 10px;
+}
 .nav {
   z-index: 3;
   width: 300px;
