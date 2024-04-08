@@ -6,6 +6,6 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 <template>
         
   <div class="w3-black w3-center w3-padding-24">
-  © 2024 Jhordeibys Da Silva. Todos los derechos reservados.
+  © 2024 Jhordeibys Da Silva. All right reserved.
   </div>
 </template>

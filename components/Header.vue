@@ -3,6 +3,7 @@ import photo from "@/assets/img/avatar_g2.jpg";
 import jhord from "@/assets/img/jhordeibys.jpeg";
 import cer03 from "@/assets/img/logocer03.jpeg";
 import torta80 from "@/assets/img/torta80.jpeg";
+import pokemon from "@/assets/img/pokemon.png";
 const { showNav } = useNavBar();
 
 const handleOpenNav = () => {
@@ -50,7 +51,7 @@ const handleOpenNav = () => {
 
     <div class="w3-third w3-container">
       <a href="www.google.com">
-        <img :src="photo" alt="Norway" class="w3-hover-opacity imgProjects">
+        <img :src="pokemon" alt="Norway" class="w3-hover-opacity imgProjects">
       </a>
       <div class="w3-container w3-white">
         <p><b>Pokemon</b></p>
