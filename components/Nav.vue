@@ -27,13 +27,13 @@ const handleCloseNav = () => {
       </a>
 
       <img :src="jhord" class="w3-round img-width"><br><br>
-      <h4><b>PORTFOLIO</b></h4>
+      <h4><b>PORTAFOLIO</b></h4>
       <p class="w3-text-grey">Fullstack Developer</p>
     </div>
     <div class="w3-bar-block">
-      <a href="#portfolio" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a> 
-      <a href="#about" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
-      <a href="#contact" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+      <a href="#portfolio" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTAFOLIO</a> 
+      <a href="#about" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>INFORMACION</a> 
+      <a href="#contact" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACTO</a>
     </div>
 
     <!-- icons social media-->

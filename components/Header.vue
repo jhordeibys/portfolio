@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import photo from "@/assets/img/avatar_g2.jpg";
 import jhord from "@/assets/img/jhordeibys.jpeg";
 import cer03 from "@/assets/img/logocer03.jpeg";
 import torta80 from "@/assets/img/torta80.jpeg";
@@ -28,14 +27,14 @@ const handleOpenNav = () => {
   
   <!-- First Photo Grid-->
   <div class="w3-row-padding w3-padding-large">
-    <h4><b>Projects</b></h4>
+    <h4><b>Proyectos</b></h4>
     <div class="w3-third w3-container w3-margin-bottom">
       <a href="https://tortas-80-golpes-web.cp.murrudev.com/" target="_blank">
         <img :src="torta80" alt="Norway" class="w3-hover-opacity imgProjects">
       </a>
       <div class="w3-container w3-white">
         <p><b>Tortas 80 Golpes</b></p>
-        <p>Web application for the sale of cakes 80 hits from a small business in the city of Gualeguachu, in which we use technologies such as nuxt, vue, css3, sass, typescript, node and w3schools</p>
+        <p>Aplicación web para la venta de tortas 80 golpes de un pequeño negocio de la ciudad de Gualeguaychú, en la cual utilizamos tecnologías como nuxt, vue, css3, sass, typescript, node y w3schools</p>
       </div>
     </div>
 
@@ -45,7 +44,7 @@ const handleOpenNav = () => {
       </a>
       <div class="w3-container w3-white">
         <p><b>Cer03</b></p>
-        <p>Together with a group of colleagues we developed an after-sales web application, with the purpose of simplifying the work of sales and product management for small businesses, as well as further empowering large companies, in which we use technologies such as React, redux, vite, css, javascript, node, express and SQL</p>
+        <p>Junto a un grupo de compañeros desarrollamos una aplicación web de postventa, con el propósito de simplificar el trabajo de ventas y gestión de productos para pequeñas empresas, así como potenciar aún más a las grandes empresas, en las que utilizamos tecnologías como React, redux, vite, css, javascript, nodo, express y SQL</p>
       </div>
     </div>
 
@@ -55,7 +54,7 @@ const handleOpenNav = () => {
       </a>
       <div class="w3-container w3-white">
         <p><b>Pokemon</b></p>
-        <p>Web application carried out as an individual project to complete the full stack web programming course. in which I use technologies such as React, redux, Vite, javascript, node, express and SQL</p>
+        <p>Aplicación web realizada como proyecto individual para completar el curso de programación web full stack. en el cual utilizo tecnologías como React, redux, Vite, javascript, node, express y SQL</p>
       </div>
     </div>
   </div>
@@ -93,25 +92,24 @@ const handleOpenNav = () => {
     <div class="w3-bar">
       <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
       <a href="#" class="w3-bar-item w3-black w3-button">1</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
       <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
     </div>
   </div>
 
-  <!-- Images of Me -->
+  <!-- Images of Me 
   <div class="w3-row-padding w3-padding-16 w3-center" id="about">
       <img :src="jhord" alt="Me"  class="imgAbout">
   </div>
-
+  -->
   <div class="w3-container w3-padding-large" style="margin-bottom:32px">
-    <h4><b>About Me</b></h4>
-    <p>Hello! I'm Gabriel, a passionate fullstack web developer with a deep love for technology and problem solving. I love immersing myself in new challenges and facing them with determination until I find innovative solutions.
+    <h4><b>Información</b></h4>
+    <p>¡Hola! Soy Gabriel, un apasionado desarrollador web fullstack con un profundo amor por la tecnología y la resolución de problemas. Me encanta sumergirme en nuevos retos y afrontarlos con determinación hasta encontrar soluciones innovadoras.
 
-My goal is to stand out through my projects, creating impactful solutions that not only solve problems, but also generate a positive impact in the digital world. I am motivated by the idea of ​​reaching more companies with my skills and contributing to the success of their projects.
+Mi objetivo es destacarme a través de mis proyectos, creando soluciones impactantes que no solo resuelvan problemas, sino que generen un impacto positivo en el mundo digital. Me motiva la idea de llegar con mis habilidades a más empresas y contribuir al éxito de sus proyectos.
 
-Every line of code I write is a step forward in my professional journey, and I am committed to continuing to grow and learn in this exciting field. I am always open to new opportunities and challenges that allow me to expand my knowledge and skills.
+Cada línea de código que escribo es un paso adelante en mi trayectoria profesional y estoy comprometido a seguir creciendo y aprendiendo en este apasionante campo. Siempre estoy abierto a nuevas oportunidades y desafíos que me permitan ampliar mis conocimientos y habilidades.
 
-Join me on this journey as we create extraordinary web experiences together and take your ideas to the next level!</p>
+¡unanse a mí en este viaje mientras creamos juntos experiencias web extraordinarias y llevamos sus ideas al siguiente nivel!</p>
     <hr>
 
     <!-- Skills -->
