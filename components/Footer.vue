@@ -1,6 +1,5 @@
 <script lang="ts" setup>
-import photo from "@/assets/img/avatar_g2.jpg";
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
 </script>
 
 <template>

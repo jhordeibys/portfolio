@@ -101,7 +101,7 @@ const handleOpenNav = () => {
       <img :src="jhord" alt="Me"  class="imgAbout">
   </div>
   -->
-  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+  <div id="about" class="w3-container w3-padding-large" style="margin-bottom:32px">
     <h4><b>Información</b></h4>
     <p>¡Hola! Soy Gabriel, un apasionado desarrollador web fullstack con un profundo amor por la tecnología y la resolución de problemas. Me encanta sumergirme en nuevos retos y afrontarlos con determinación hasta encontrar soluciones innovadoras.
 
