@@ -20,7 +20,7 @@ const handleOpenNav = () => {
 
     <div class="w3-container w3-center">
       <h1><b>Jhordeibys Gabriel Da Silva Raaz</b></h1>
-      <h2><b>Fullstack Developer </b></h2>
+      <h2><b>FullStack Developer </b></h2>
     </div>
 
   </header>
@@ -29,7 +29,7 @@ const handleOpenNav = () => {
   <div class="w3-row-padding w3-padding-large">
     <h4><b>Proyectos</b></h4>
     <div class="w3-third w3-container w3-margin-bottom">
-      <a href="https://tortas-80-golpes-web.cp.murrudev.com/" target="_blank">
+      <a href="https://jhordeibys-portfolio.netlify.app/">
         <img :src="torta80" alt="Norway" class="w3-hover-opacity imgProjects">
       </a>
       <div class="w3-container w3-white">
